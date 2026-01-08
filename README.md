@@ -59,8 +59,8 @@ Before you begin, ensure you have the following installed:
 | `npm run test:negative` | Runs only negative scenarios (`@negative`)|
 
 
-├── .github/workflows/        # CI/CD pipeline configuration
-├── cypress/
+ .github/workflows/        # CI/CD pipeline configuration
+| cypress/
 │   ├── e2e/                  # Feature files, step definitions, utils and POM
 │   │   ├── login/
 │   │   ├── products/
