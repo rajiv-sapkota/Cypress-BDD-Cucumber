@@ -30,7 +30,7 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/cypress-bdd-cucumber.git](https://github.com/your-username/cypress-bdd-cucumber.git)
+    git clone https://github.com/your-username/cypress-bdd-cucumber.git
     cd cypress-bdd-cucumber
     ```
 
@@ -55,20 +55,37 @@ Before you begin, ensure you have the following installed:
 | `npm run test` | Runs all tests in Headless Mode |
 | `npm run allure:run` | **(Recommended)** Runs tests + Generates Allure Report + Opens Report |
 | `npm run report:clean` | Deletes old Allure results and reports |
+| `npm run test:positive` | Runs only positive scenarios (`@positive`)|
+| `npm run test:negative` | Runs only negative scenarios (`@negative`)|
 
----
+```bash
+ .github/workflows/        # CI/CD pipeline configuration
+| cypress/
+│   ├── e2e/                  # Feature files, step definitions, utils and POM
+│   │   ├── login/
+│   │   ├── products/
+│   │   └── utils/            # Utility functions used across test cases
+├── pages/                     # POM (Page Object Model)
+│   ├── support/               # Global configuration, commands, hooks
+│   └── fixtures/              # Test data
+├── .env                       # Private credentials
+├── .gitignore                 # Files excluded from Git
+├── cypress.config.js          # Main Cypress configuration 
+└── package.json               # Project dependencies and npm scripts
+```
 
-## 📂 Project Structure
-.
-├── .github/workflows/    # CI/CD Pipeline configuration
-├── cypress/
-│   ├── e2e/              # .feature and step files seperated under respective folders
-│   ├── support/          # Global configuration and commands
-│ 
-├── .env                  # Private credentials (not in Git)
-├── .gitignore            # Files excluded from Git
-├── cypress.config.js     # Main Cypress configuration
-└── package.json          # Project dependencies and scripts
+
+| Script                  | Description                                                             |
+| ----------------------- | ----------------------------------------------------------------------- |
+| `npm run cy:open`       | Opens Cypress Test Runner (Interactive Mode)                            |
+| `npm run test`          | Runs all tests in Headless Mode                                         |
+| `npm run allure:run`    | Runs all tests, generates Allure report, and opens report automatically |
+| `npm run test:positive` | Runs only positive scenarios (`@positive`)                              |
+| `npm run test:negative` | Runs only negative scenarios (`@negative`)                              |
+| `npm run test:smoke`    | Runs only smoke scenarios (`@smoke`)                                    |
+
+
+
 
 
 📊 Viewing Reports
