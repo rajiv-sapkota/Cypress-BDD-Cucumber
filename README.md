@@ -54,9 +54,7 @@ Before you begin, ensure you have the following installed:
 | `npm run cy:open` | Opens the Cypress Runner (Interactive Mode) |
 | `npm run test` | Runs all tests in Headless Mode |
 | `npm run allure:run` | **(Recommended)** Runs tests + Generates Allure Report + Opens Report |
-| `npm run report:clean` | Deletes old Allure results and reports |
-| `npm run test:positive` | Runs only positive scenarios (`@positive`)|
-| `npm run test:negative` | Runs only negative scenarios (`@negative`)|
+
 
 ```bash
  .github/workflows/        # CI/CD pipeline configuration
@@ -80,10 +78,10 @@ Before you begin, ensure you have the following installed:
 | `npm run cy:open`       | Opens Cypress Test Runner (Interactive Mode)                            |
 | `npm run test`          | Runs all tests in Headless Mode                                         |
 | `npm run allure:run`    | Runs all tests, generates Allure report, and opens report automatically |
-| `npm run test:positive` | Runs only positive scenarios (`@positive`)                              |
-| `npm run test:negative` | Runs only negative scenarios (`@negative`)                              |
-| `npm run test:smoke`    | Runs only smoke scenarios (`@smoke`)                                    |
 
+
+## 🏃 Recommended Test
+| `npm run allure:run`    | Clears previous reports, Runs all tests, Generates Allure report, and Opens report automatically in default browser |
 
 
 
