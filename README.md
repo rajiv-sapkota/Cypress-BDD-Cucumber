@@ -58,8 +58,9 @@ Before you begin, ensure you have the following installed:
 | `npm run test:positive` | Runs only positive scenarios (`@positive`)|
 | `npm run test:negative` | Runs only negative scenarios (`@negative`)|
 
----
 
+---
+## Folder Structure
 ├── .github/workflows/        # CI/CD pipeline configuration
 ├── cypress/
 │   ├── e2e/                  # Feature files, step definitions, utils and POM
@@ -73,6 +74,8 @@ Before you begin, ensure you have the following installed:
 ├── .gitignore                 # Files excluded from Git
 ├── cypress.config.js          # Main Cypress configuration 
 └── package.json               # Project dependencies and npm scripts
+
+
 
 | Script                  | Description                                                             |
 | ----------------------- | ----------------------------------------------------------------------- |
