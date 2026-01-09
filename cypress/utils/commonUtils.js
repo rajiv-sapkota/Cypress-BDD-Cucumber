@@ -50,5 +50,13 @@ class ClickUtils{
     }
 }
 
+
+class TypingUtils{
+    typeInField(locator, text) {
+        cy.get(locator).type(text)
+    }
+}
+
 export const assertUtils = new AssertUtils();
-export const clickUtils=new ClickUtils()
+export const clickUtils = new ClickUtils()
+export const typingUtils = new TypingUtils()
